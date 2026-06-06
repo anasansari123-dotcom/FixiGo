@@ -1,0 +1,38 @@
+import type { NavLink } from "@/types";
+
+export const navLinks: NavLink[] = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Book Repair", href: "/book-repair" },
+  { label: "Track Repair", href: "/track-repair" },
+  { label: "Contact", href: "/contact" },
+];
+
+export const footerLinks = {
+  about: [
+    { label: "About Us", href: "/about" },
+    { label: "Our Technicians", href: "/about#technicians" },
+    { label: "Why Fixigo", href: "/#why-fixigo" },
+    { label: "FAQ", href: "/#faq" },
+  ],
+  services: [
+    { label: "Mobile Repair", href: "/services#mobile-repair" },
+    { label: "Laptop Repair", href: "/services#laptop-repair" },
+    { label: "TV Repair", href: "/services#tv-repair" },
+    { label: "AC Repair", href: "/services#ac-repair" },
+    { label: "All Services", href: "/services" },
+  ],
+  support: [
+    { label: "Book Repair", href: "/book-repair" },
+    { label: "Track Repair", href: "/track-repair" },
+    { label: "Contact Us", href: "/contact" },
+  ],
+};
+
+export const socialLinks = [
+  { label: "Facebook", href: "https://facebook.com", icon: "facebook" },
+  { label: "Instagram", href: "https://instagram.com", icon: "instagram" },
+  { label: "Twitter", href: "https://twitter.com", icon: "twitter" },
+  { label: "LinkedIn", href: "https://linkedin.com", icon: "linkedin" },
+];
