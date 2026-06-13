@@ -1,0 +1,97 @@
+export const seoConfig = {
+  siteName: "Fixigo",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://fixigo.in",
+  locale: "en_IN",
+  language: "en-IN",
+  country: "IN",
+  currency: "INR",
+  brand: {
+    primary: "#0057D9",
+    secondary: "#FF6B00",
+  },
+  business: {
+    name: "Fixigo",
+    legalName: "Fixigo",
+    category: "Electronics Repair Service",
+    description:
+      "Expert doorstep electronics and home appliance repair service in Muzaffarnagar and nearby cities.",
+    phone: "+916395503819",
+    phoneDisplay: "+91 6395503819",
+    email: "hello@fixigo.in",
+    address: {
+      street: "Roorkee Road",
+      city: "Muzaffarnagar",
+      state: "Uttar Pradesh",
+      postalCode: "251001",
+      country: "IN",
+    },
+    geo: {
+      latitude: 29.4709,
+      longitude: 77.7045,
+    },
+    priceRange: "$$",
+    openingHours: ["Mo-Su 08:00-21:00"],
+  },
+  primaryLocation: "Muzaffarnagar",
+  areaServed: [
+    "Muzaffarnagar",
+    "Roorkee",
+    "Deoband",
+    "Khatauli",
+    "Jansath",
+    "Budhana",
+    "Shamli",
+    "Saharanpur",
+    "Meerut",
+    "Haridwar",
+  ],
+  targetLocations: [
+    "Muzaffarnagar",
+    "Roorkee",
+    "Deoband",
+    "Khatauli",
+    "Jansath",
+    "Budhana",
+    "Shamli",
+    "Saharanpur",
+    "Meerut",
+    "Haridwar",
+  ],
+  keywords: [
+    "electronics repair muzaffarnagar",
+    "mobile repair muzaffarnagar",
+    "laptop repair muzaffarnagar",
+    "tv repair muzaffarnagar",
+    "ac repair muzaffarnagar",
+    "doorstep repair service",
+    "home appliance repair",
+    "repair service near me",
+    "device repair muzaffarnagar",
+    "refrigerator repair muzaffarnagar",
+    "washing machine repair muzaffarnagar",
+  ],
+  sitelinks: [
+    { name: "Services", url: "/services" },
+    { name: "Book Repair", url: "/book-repair" },
+    { name: "About Us", url: "/about" },
+    { name: "Contact Us", url: "/contact" },
+  ],
+  social: {
+    whatsapp: "https://wa.me/916395503819",
+    instagram: "https://www.instagram.com/fixigo_repair/",
+  },
+  ogImage: "/logo.png",
+  twitterHandle: "@fixigo",
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? "",
+    bing: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION ?? "",
+  },
+  analytics: {
+    gaId: process.env.NEXT_PUBLIC_GA_ID ?? "",
+    gtmId: process.env.NEXT_PUBLIC_GTM_ID ?? "",
+  },
+} as const;
+
+export function absoluteUrl(path = ""): string {
+  return `${seoConfig.siteUrl}${path}`;
+}

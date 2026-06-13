@@ -1,0 +1,18 @@
+/* TEAM */
+Company: Fixigo
+Site: https://fixigo.in
+Location: Muzaffarnagar, Uttar Pradesh, India
+Contact: hello@fixigo.in
+Phone: +91 6395503819
+
+/* THANKS */
+Next.js — https://nextjs.org
+Vercel — https://vercel.com
+
+/* SITE */
+Last update: 2026/06/07
+Language: English
+Doctype: HTML5
+IDE: Cursor
+Standards: HTML5, CSS3, WCAG 2.1
+Components: React, TypeScript, Tailwind CSS

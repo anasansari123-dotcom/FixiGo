@@ -36,12 +36,14 @@ export function Hero() {
 
             <h1 className="text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
               Doorstep{" "}
-              <span className="gradient-text">Electronics Repair</span> Services
+              <span className="gradient-text">Electronics Repair</span> in
+              Muzaffarnagar
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Get your devices repaired at home by trusted technicians.
-              Mobile, laptop, TV, AC, and appliance repairs with warranty.
+              Expert mobile, laptop, TV, AC, and home appliance repair at your
+              doorstep across Muzaffarnagar, Shamli, Meerut, Saharanpur, and
+              nearby areas. Verified technicians with warranty-backed service.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">

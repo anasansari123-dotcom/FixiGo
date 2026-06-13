@@ -1,20 +1,26 @@
 import type { MetadataRoute } from "next";
-import { siteConfig } from "@/lib/metadata";
+import { seoConfig, absoluteUrl } from "@/lib/seo/config";
+
+const routes: {
+  path: string;
+  changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
+  priority: number;
+}[] = [
+  { path: "", changeFrequency: "weekly", priority: 1 },
+  { path: "/services", changeFrequency: "weekly", priority: 0.9 },
+  { path: "/book-repair", changeFrequency: "weekly", priority: 0.85 },
+  { path: "/about", changeFrequency: "monthly", priority: 0.8 },
+  { path: "/contact", changeFrequency: "monthly", priority: 0.75 },
+  { path: "/track-repair", changeFrequency: "monthly", priority: 0.7 },
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = [
-    "",
-    "/about",
-    "/services",
-    "/book-repair",
-    "/track-repair",
-    "/contact",
-  ];
+  const lastModified = new Date();
 
-  return routes.map((route) => ({
-    url: `${siteConfig.url}${route}`,
-    lastModified: new Date(),
-    changeFrequency: route === "" ? "weekly" : "monthly",
-    priority: route === "" ? 1 : 0.8,
+  return routes.map(({ path, changeFrequency, priority }) => ({
+    url: absoluteUrl(path),
+    lastModified,
+    changeFrequency,
+    priority,
   }));
 }

@@ -5,19 +5,19 @@ export const faqItems: FAQItem[] = [
     id: "1",
     question: "What devices does Fixigo repair?",
     answer:
-      "We repair mobile phones, laptops, TVs, refrigerators, washing machines, air conditioners, RO systems, microwaves, geysers, and other home appliances from major brands.",
+      "We repair mobile phones, laptops, TVs, refrigerators, washing machines, air conditioners, RO systems, microwaves, geysers, and other home appliances from major brands across Muzaffarnagar and nearby areas.",
   },
   {
     id: "2",
     question: "How quickly can a technician visit my home?",
     answer:
-      "In most serviceable cities, we offer same-day or next-day doorstep visits. Urgent requests are prioritized based on technician availability in your area.",
+      "In Muzaffarnagar, Shamli, Meerut, and nearby serviceable areas, we offer same-day or next-day doorstep visits. Urgent requests are prioritized based on technician availability.",
   },
   {
     id: "3",
     question: "Do you offer pickup and delivery?",
     answer:
-      "Yes. For devices that require workshop repair, we provide secure pickup, repair at our certified labs, and doorstep delivery once the service is complete.",
+      "Yes. For devices that require workshop repair, we provide secure pickup from your location in Muzaffarnagar, Roorkee, Saharanpur, and nearby cities, then deliver back after service completion.",
   },
   {
     id: "4",
@@ -41,7 +41,7 @@ export const faqItems: FAQItem[] = [
     id: "7",
     question: "What cities do you currently serve?",
     answer:
-      "Fixigo is currently serving Muzaffarnagar and nearby areas, with plans to expand to more cities across Uttar Pradesh soon.",
+      "Fixigo currently serves Muzaffarnagar, Shamli, Meerut, Saharanpur, Roorkee, Deoband, Khatauli, Jansath, Budhana, Haridwar, and nearby areas across Western Uttar Pradesh.",
   },
   {
     id: "8",

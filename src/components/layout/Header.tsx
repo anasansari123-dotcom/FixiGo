@@ -41,7 +41,7 @@ export function Header() {
         <Logo size="header" />
 
         <nav
-          className="hidden items-center gap-1 xl:flex"
+          className="hidden items-center gap-1 xl:flex mr-15"
           aria-label="Main navigation"
         >
           {navLinks.map((link) => (

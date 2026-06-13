@@ -7,18 +7,26 @@ import { Statistics } from "@/components/home/Statistics";
 import { Testimonials } from "@/components/home/Testimonials";
 import { FAQ } from "@/components/home/FAQ";
 import { CTABanner } from "@/components/home/CTABanner";
-import { createMetadata } from "@/lib/metadata";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { faqSchema, webPageSchema } from "@/lib/seo/schema";
+import { createHomeMetadata } from "@/lib/metadata";
 
-export const metadata = createMetadata({
-  title: "Doorstep Electronics Repair Services",
-  description:
-    "Book trusted doorstep repair for mobile phones, laptops, TVs, ACs, and home appliances. Fast service, verified technicians, and live tracking with Fixigo.",
-  path: "/",
-});
+export const metadata = createHomeMetadata();
 
 export default function HomePage() {
   return (
     <>
+      <JsonLd
+        data={[
+          webPageSchema({
+            title: "Fixigo | Doorstep Electronics Repair Service in Muzaffarnagar",
+            description:
+              "Get expert doorstep repair services for Mobile, Laptop, TV, AC, Refrigerator, Washing Machine and Home Appliances in Muzaffarnagar.",
+            path: "/",
+          }),
+          faqSchema(),
+        ]}
+      />
       <Hero />
       <Services />
       <HowItWorks />
