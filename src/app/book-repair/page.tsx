@@ -7,9 +7,9 @@ import { createMetadata } from "@/lib/metadata";
 import { webPageSchema } from "@/lib/seo/schema";
 
 export const metadata = createMetadata({
-  title: "Book Doorstep Repair in Muzaffarnagar",
+  title: "Book Fixigo Repair Muzaffarnagar",
   description:
-    "Book doorstep electronics repair in Muzaffarnagar with Fixigo. Mobile, laptop, TV, AC, refrigerator, and appliance repair with verified technicians and live tracking.",
+    "Book Fixigo Repair (Fixigo MZN) online — doorstep mobile, laptop, TV, AC, refrigerator, and appliance repair in Muzaffarnagar with verified technicians and live tracking.",
   path: "/book-repair",
   keywords: [
     "book repair muzaffarnagar",

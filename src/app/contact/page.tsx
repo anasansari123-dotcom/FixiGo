@@ -8,9 +8,9 @@ import { webPageSchema } from "@/lib/seo/schema";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata = createMetadata({
-  title: "Contact Us — Repair Service in Muzaffarnagar",
+  title: "Contact Fixigo Repair Muzaffarnagar",
   description:
-    "Contact Fixigo for electronics repair in Muzaffarnagar, Shamli, Meerut, and nearby areas. Call, email, or send a message for service inquiries and support.",
+    "Contact Fixigo Repair Muzaffarnagar (Fixigo MZN). Call +91 6395503819, email hello@fixigo.in, or visit Roorkee Road, Muzaffarnagar for electronics repair support.",
   path: "/contact",
 });
 

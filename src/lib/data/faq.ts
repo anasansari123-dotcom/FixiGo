@@ -2,6 +2,24 @@ import type { FAQItem } from "@/types";
 
 export const faqItems: FAQItem[] = [
   {
+    id: "b1",
+    question: "What is Fixigo Repair?",
+    answer:
+      "Fixigo Repair is the official doorstep electronics and home appliance repair service in Muzaffarnagar. Also known as Fixigo Muzaffarnagar or Fixigo MZN, we repair mobile phones, laptops, TVs, ACs, refrigerators, washing machines, and more at your home.",
+  },
+  {
+    id: "b2",
+    question: "Is Fixigo MZN the same as Fixigo Repair Muzaffarnagar?",
+    answer:
+      "Yes. Fixigo MZN, Fixigo Repair MZN, and Fixigo Repair Muzaffarnagar all refer to the same official Fixigo doorstep repair service based in Muzaffarnagar, Uttar Pradesh. Book on fixigo.in or call +91 6395503819.",
+  },
+  {
+    id: "b3",
+    question: "How do I book Fixigo Repair in Muzaffarnagar?",
+    answer:
+      "Visit fixigo.in, go to Book Repair, fill in your device details, or WhatsApp us. Fixigo Repair Muzaffarnagar offers same-day doorstep visits across Muzaffarnagar, Shamli, Meerut, and nearby areas.",
+  },
+  {
     id: "1",
     question: "What devices does Fixigo repair?",
     answer:

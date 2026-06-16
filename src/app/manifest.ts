@@ -3,8 +3,8 @@ import { seoConfig } from "@/lib/seo/config";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: `${seoConfig.siteName} | Doorstep Electronics Repair`,
-    short_name: seoConfig.siteName,
+    name: "Fixigo Repair Muzaffarnagar",
+    short_name: "Fixigo MZN",
     description: seoConfig.business.description,
     start_url: "/",
     display: "standalone",

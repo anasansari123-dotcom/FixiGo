@@ -29,13 +29,13 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Fixigo | Doorstep Electronics Repair Service",
+    default: "Fixigo Repair Muzaffarnagar | Fixigo MZN | Official Website",
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [...seoConfig.keywords],
   metadataBase: new URL(seoConfig.siteUrl),
-  applicationName: siteConfig.name,
+    applicationName: "Fixigo Repair",
   authors: [{ name: siteConfig.name, url: seoConfig.siteUrl }],
   creator: siteConfig.name,
   publisher: siteConfig.name,
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     canonical: seoConfig.siteUrl,
   },
   openGraph: {
-    title: "Fixigo | Doorstep Electronics Repair Service",
+    title: "Fixigo Repair Muzaffarnagar | Fixigo MZN | Official Website",
     description: siteConfig.description,
     url: seoConfig.siteUrl,
     siteName: siteConfig.name,
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fixigo | Doorstep Electronics Repair Service",
+    title: "Fixigo Repair Muzaffarnagar | Fixigo MZN | Official Website",
     description: siteConfig.description,
     images: [siteConfig.ogImage],
     creator: seoConfig.twitterHandle,

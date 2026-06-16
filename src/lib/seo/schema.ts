@@ -7,6 +7,8 @@ type BreadcrumbItem = {
   path: string;
 };
 
+const brandAlternateNames = [...seoConfig.brandNames];
+
 const address = {
   "@type": "PostalAddress",
   streetAddress: seoConfig.business.address.street,
@@ -23,6 +25,7 @@ export function organizationSchema() {
     "@id": `${absoluteUrl()}/#organization`,
     name: seoConfig.business.name,
     legalName: seoConfig.business.legalName,
+    alternateName: brandAlternateNames,
     url: absoluteUrl(),
     logo: absoluteUrl(seoConfig.ogImage),
     image: absoluteUrl(seoConfig.ogImage),
@@ -35,6 +38,15 @@ export function organizationSchema() {
       name: city,
     })),
     sameAs: [seoConfig.social.whatsapp, seoConfig.social.instagram],
+    knowsAbout: [
+      "Electronics Repair",
+      "Mobile Phone Repair",
+      "Laptop Repair",
+      "TV Repair",
+      "AC Repair",
+      "Home Appliance Repair",
+      "Doorstep Repair Service",
+    ],
     contactPoint: {
       "@type": "ContactPoint",
       telephone: seoConfig.business.phone,
@@ -50,7 +62,8 @@ export function websiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${absoluteUrl()}/#website`,
-    name: seoConfig.siteName,
+    name: seoConfig.brandDisplayName,
+    alternateName: brandAlternateNames,
     url: absoluteUrl(),
     description: seoConfig.business.description,
     publisher: { "@id": `${absoluteUrl()}/#organization` },
@@ -72,6 +85,7 @@ export function localBusinessSchema() {
     "@type": "LocalBusiness",
     "@id": `${absoluteUrl()}/#localbusiness`,
     name: seoConfig.business.name,
+    alternateName: brandAlternateNames,
     description: seoConfig.business.description,
     url: absoluteUrl(),
     image: absoluteUrl(seoConfig.ogImage),
@@ -214,8 +228,22 @@ export function webPageSchema({
   };
 }
 
+export function brandSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Brand",
+    "@id": `${absoluteUrl()}/#brand`,
+    name: "Fixigo",
+    alternateName: brandAlternateNames,
+    logo: absoluteUrl(seoConfig.ogImage),
+    url: absoluteUrl(),
+    slogan: "Doorstep Device Repair",
+  };
+}
+
 export function globalSchemas() {
   return [
+    brandSchema(),
     organizationSchema(),
     websiteSchema(),
     localBusinessSchema(),

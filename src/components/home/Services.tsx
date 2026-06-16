@@ -25,9 +25,9 @@ export function Services() {
     <section id="services" className="section-padding bg-white">
       <div className="container-custom">
         <SectionHeading
-          eyebrow="Our Services"
-          title="Expert repair for every device"
-          description="From smartphones to home appliances, Fixigo delivers professional doorstep repair with genuine parts and skilled technicians."
+          eyebrow="Fixigo Repair Services"
+          title="Expert repair for every device in Muzaffarnagar"
+          description="Fixigo Repair Muzaffarnagar (Fixigo MZN) delivers professional doorstep repair for smartphones, laptops, TVs, ACs, and home appliances with genuine parts and skilled technicians."
         />
 
         <motion.div

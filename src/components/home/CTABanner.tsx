@@ -32,8 +32,8 @@ export function CTABanner() {
               Need urgent repair assistance?
             </h2>
             <p className="mt-4 max-w-lg text-base text-white/80 md:text-lg">
-              Book a Fixigo technician now and get same-day doorstep service in
-              Muzaffarnagar and nearby areas.
+              Book Fixigo Repair Muzaffarnagar now — same-day doorstep service
+              across Muzaffarnagar, Shamli, Meerut, and nearby areas.
             </p>
             <Button
               href="/book-repair"

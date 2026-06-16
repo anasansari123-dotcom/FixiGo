@@ -53,9 +53,10 @@ function buildTwitter({
 
 export const siteConfig = {
   name: seoConfig.siteName,
+  brandName: seoConfig.brandDisplayName,
   tagline: "Doorstep Electronics Repair Service",
   description:
-    "Get expert doorstep repair services for Mobile, Laptop, TV, AC, Refrigerator, Washing Machine and Home Appliances in Muzaffarnagar. Fast service, verified technicians, pickup and delivery available.",
+    "Fixigo Repair (Fixigo Muzaffarnagar / Fixigo MZN) — official doorstep repair for Mobile, Laptop, TV, AC, Refrigerator, Washing Machine and Home Appliances. Verified technicians, fast service, pickup and delivery in Muzaffarnagar.",
   url: seoConfig.siteUrl,
   ogImage: seoConfig.ogImage,
   favicon: "/favicon.png",
@@ -119,7 +120,7 @@ export function createMetadata({
 
 export function createHomeMetadata(): Metadata {
   const title =
-    "Fixigo | Doorstep Electronics Repair Service in Muzaffarnagar";
+    "Fixigo Repair Muzaffarnagar | Fixigo MZN | Official Doorstep Repair";
   const description = siteConfig.description;
   const url = absoluteUrl("/");
 

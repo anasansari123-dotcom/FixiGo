@@ -1,5 +1,6 @@
 export const seoConfig = {
   siteName: "Fixigo",
+  brandDisplayName: "Fixigo Repair Muzaffarnagar",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://fixigo.in",
   locale: "en_IN",
   language: "en-IN",
@@ -9,12 +10,21 @@ export const seoConfig = {
     primary: "#0057D9",
     secondary: "#FF6B00",
   },
+  /** Names people search on Google for this business */
+  brandNames: [
+    "Fixigo",
+    "Fixigo Repair",
+    "Fixigo Muzaffarnagar",
+    "Fixigo MZN",
+    "Fixigo Repair MZN",
+    "Fixigo Repair Muzaffarnagar",
+  ],
   business: {
-    name: "Fixigo",
+    name: "Fixigo Repair Muzaffarnagar",
     legalName: "Fixigo",
     category: "Electronics Repair Service",
     description:
-      "Expert doorstep electronics and home appliance repair service in Muzaffarnagar and nearby cities.",
+      "Fixigo Repair (Fixigo Muzaffarnagar / Fixigo MZN) — official doorstep electronics and home appliance repair service in Muzaffarnagar and nearby cities.",
     phone: "+916395503819",
     phoneDisplay: "+91 6395503819",
     email: "hello@fixigo.in",
@@ -58,6 +68,12 @@ export const seoConfig = {
     "Haridwar",
   ],
   keywords: [
+    "fixigo repair",
+    "fixigo muzaffarnagar",
+    "fixigo mzn",
+    "fixigo repair mzn",
+    "fixigo repair muzaffarnagar",
+    "fixigo official website",
     "electronics repair muzaffarnagar",
     "mobile repair muzaffarnagar",
     "laptop repair muzaffarnagar",

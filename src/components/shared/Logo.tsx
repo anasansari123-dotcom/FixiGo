@@ -58,11 +58,11 @@ export function Logo({
         config.wrapper,
         className,
       )}
-      aria-label="Fixigo home"
+      aria-label="Fixigo Repair Muzaffarnagar — Home"
     >
       <Image
         src="/logo.png"
-        alt="Fixigo - Doorstep Device Repair"
+        alt="Fixigo Repair Muzaffarnagar — Fixigo MZN Doorstep Electronics Repair"
         width={config.width}
         height={config.height}
         className={cn(

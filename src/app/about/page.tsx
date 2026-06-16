@@ -11,9 +11,9 @@ import { createMetadata } from "@/lib/metadata";
 import { webPageSchema } from "@/lib/seo/schema";
 
 export const metadata = createMetadata({
-  title: "About Us — Doorstep Electronics Repair in Muzaffarnagar",
+  title: "About Fixigo Repair Muzaffarnagar",
   description:
-    "Learn about Fixigo — Muzaffarnagar's trusted doorstep electronics repair service. Verified technicians serving Shamli, Meerut, Saharanpur, Roorkee, and nearby areas.",
+    "About Fixigo Repair (Fixigo Muzaffarnagar / Fixigo MZN) — trusted doorstep electronics repair with verified technicians serving Shamli, Meerut, Saharanpur, Roorkee, and nearby areas.",
   path: "/about",
 });
 

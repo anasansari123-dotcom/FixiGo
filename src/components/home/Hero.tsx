@@ -31,19 +31,20 @@ export function Hero() {
           >
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-white px-4 py-2 text-sm font-medium text-primary shadow-sm">
               <Sparkles className="h-4 w-4 text-secondary" />
-              Trusted by 100+ customers in Muzaffarnagar
+              Fixigo Repair Muzaffarnagar — trusted by 100+ customers
             </div>
 
             <h1 className="text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
-              Doorstep{" "}
-              <span className="gradient-text">Electronics Repair</span> in
+              <span className="gradient-text">Fixigo Repair</span> in
               Muzaffarnagar
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Expert mobile, laptop, TV, AC, and home appliance repair at your
-              doorstep across Muzaffarnagar, Shamli, Meerut, Saharanpur, and
-              nearby areas. Verified technicians with warranty-backed service.
+              Official <strong className="font-semibold text-foreground">Fixigo Muzaffarnagar</strong> (
+              <strong className="font-semibold text-foreground">Fixigo MZN</strong>)
+              doorstep service for mobile, laptop, TV, AC, and home appliances.
+              Search Fixigo Repair MZN — book verified technicians with warranty-backed
+              repairs across Shamli, Meerut, Saharanpur, and nearby areas.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">

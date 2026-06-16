@@ -19,9 +19,10 @@ export default function HomePage() {
       <JsonLd
         data={[
           webPageSchema({
-            title: "Fixigo | Doorstep Electronics Repair Service in Muzaffarnagar",
+            title:
+              "Fixigo Repair Muzaffarnagar | Fixigo MZN | Official Doorstep Repair",
             description:
-              "Get expert doorstep repair services for Mobile, Laptop, TV, AC, Refrigerator, Washing Machine and Home Appliances in Muzaffarnagar.",
+              "Fixigo Repair (Fixigo Muzaffarnagar / Fixigo MZN) — official doorstep electronics repair service.",
             path: "/",
           }),
           faqSchema(),
